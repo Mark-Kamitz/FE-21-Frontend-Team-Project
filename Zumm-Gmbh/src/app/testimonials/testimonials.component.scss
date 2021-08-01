@@ -1,0 +1,32 @@
+.myImg {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#nameProfession {
+  color: rgb(152, 124, 68);
+
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 0.5rem;
+}
+
+.maskDarker {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  .mask {
+    background:transparent;
+    margin-top: 0.5rem;
+  }
+  .maskDarker {
+    background-color: transparent;
+    margin-top: 0.5rem;
+  }
+}

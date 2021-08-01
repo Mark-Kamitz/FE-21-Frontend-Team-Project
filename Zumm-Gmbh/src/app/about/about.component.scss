@@ -1,0 +1,36 @@
+.names,h1,h2,h5{
+    font-family: 'Playfair Display SC', serif;
+    padding-top: 5px;
+} 
+.signature {
+    font-family: 'Marck Script', cursive;
+}
+img {
+    width:20rem; 
+    height:20rem;
+}
+.right {
+    width: 15rem; 
+    height: 15rem;
+   
+    position: relative;
+    left : 20px;
+    top : 40px;
+ 
+    
+}
+.left{
+    width:15rem; 
+    height: 15rem;
+   
+    position: relative;
+    left : -20px;
+    top : 40px;
+
+}  
+
+
+h2 {
+    letter-spacing: 5px;
+}
+
