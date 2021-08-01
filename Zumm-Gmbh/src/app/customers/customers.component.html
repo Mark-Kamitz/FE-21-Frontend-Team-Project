@@ -5,7 +5,7 @@
 
    <div class="row" > 
 
-      <div id="{{ id.customer }}" class="col-12 col-lg-2 col-md-4 col-sm-6  myRectangle  d-flex justify-content-center align-items-center" *ngFor="let id of customers">
+      <div id="{{ id.customer }}" style="background-image: url('{{ id.bgPic }}');"class="col-12 col-lg-2 col-md-4 col-sm-6  myRectangle  d-flex justify-content-center align-items-center" *ngFor="let id of customers">
         <p class="companyName">{{ id.name }}</p>
       </div>
 
