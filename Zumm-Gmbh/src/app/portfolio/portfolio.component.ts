@@ -9,7 +9,6 @@ import { projects } from '../portfolio';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-dataisotope  = ' { "itemSelector": ".grid-item", "layoutMode": "fitRows" } ';
 products = projects
 
 start = ""
